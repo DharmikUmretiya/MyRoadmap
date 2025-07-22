@@ -37,5 +37,4 @@ This is a **personal interactive roadmap app** that visualizes my journey over f
 
 ---
 
-## 📂 Project Structure
-
+-UI Inspiration Credit Scalar
