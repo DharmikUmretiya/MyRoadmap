@@ -1,0 +1,253 @@
+
+
+.card {
+    display: flex;
+    width: 1290px;
+    max-height: 900px;
+    justify-content: space-between;
+    gap: 40px;
+
+}
+
+.navigate {
+    width: 38%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.TimeLineCard {
+    padding-left: 16px;
+    padding-bottom: 16px;
+    padding-right: 24px;
+    padding-top: 16px;
+    height: 83px;
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    display: flex;
+    gap: 12px;
+
+
+}
+
+.time_line_card_icon {
+    padding: 13px;
+    border-radius: 4px;
+}
+
+.time_line_card_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2px;
+}
+
+
+
+.timeline_card_year {
+
+
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.timeline_card_title {
+
+
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+.detail {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #d4d4d4;
+    padding: 32px;
+    height: 883px;
+    min-width: 70%;
+    border-radius: 8px;
+    gap: 20px;
+}
+
+.highlight {
+
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 14px;
+    padding-right: 14px;
+    border-radius: 8px;
+    font: 18px;
+    width: fit-content;
+    background-color: #e6f7ed;
+    color: #14663f;
+    font-weight: 600;
+    
+
+}
+
+.hightext{
+display: flex;
+align-items: center;
+}
+
+
+.highlightimg {
+    filter: saturate(67%) hue-rotate(151deg) brightness(24%);
+}
+
+
+.heading {
+
+
+
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    background: -webkit-gradient(linear, left top, right top, from(#083CA0), to(#0080FF));
+    background: linear-gradient(90deg, #083CA0 0%, #0080FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+p {
+    color: #3a3a3a;
+}
+
+
+.main_project_card {
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.project_card_img {
+    height: 128px;
+    width: auto;
+    border-radius: 8px;
+}
+
+.project_card_text {
+    max-width: 207px;
+    overflow-wrap: break-word;
+}
+
+
+.projectlist {
+
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.leftbutton {
+
+    display: flex;
+    align-items: center;
+
+
+}
+
+.rightbutton {
+
+    display: flex;
+    align-items: center;
+
+}
+
+
+
+.projectcards {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    overflow: auto;
+    height: auto;
+    max-width: 80%;
+    overflow: scroll;
+    border-radius: 20px;
+    scroll-behavior: smooth;
+
+}
+
+.projectcards::-webkit-scrollbar {
+    display: none;
+}
+
+
+.skillcard {
+    padding: 10px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border: 1px solid #e4e4e4;
+    border-radius: 8px;
+    padding: 16px;
+
+}
+
+
+.skill_heading {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 8px;
+}
+
+.term {
+    color: #083CA0;
+
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+}
+
+.duration {
+
+    padding: 6px 10px;
+    border-radius: 4px;
+    background: #e4e4e4;
+    font-size: 14px;
+}
+
+
+
+
+.list_element {
+
+    border-bottom: 1px solid #e4e4e4;
+    color: #3a3a3a;
+    overflow-wrap: break-word;
+    padding: 10px;
+
+}
+
+
+.skilllist {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
