@@ -5,6 +5,18 @@
     user-select: none;
 }
 
+@media only screen and (max-width: 1290px){
+  div.card {
+    display: none;
+
+  }
+}
+
+@media only screen and (max-height: 900px){
+  div.card {
+    display: none;
+  }
+}
 
 
 body {
