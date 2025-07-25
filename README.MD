@@ -2,8 +2,7 @@
 
 This is a **personal interactive roadmap app** that visualizes my journey over four years of learning and development. It’s a modular, responsive, one-page app built using **React + Vite**, designed to help me stay focused and track my progress.
 
-![Preview](https://github.com/DharmikUmretiya/MyRoadmap/blob/main/public/preview.png)
-
+<img src="https://github.com/DharmikUmretiya/MyRoadmap/blob/main/public/preview.png" width="1453" height="917">
 ---
 
 ## 📌 Features
